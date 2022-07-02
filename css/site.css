@@ -1,0 +1,41 @@
+/* Header */
+
+header{
+    margin: 100px;
+    
+}
+
+.top{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    padding-left: 50px;
+    word-spacing: 600px;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    top: 20px
+}
+
+.hero{
+    max-width: 100%;
+    max-height: auto;
+}
+
+/* Cards */
+
+main{
+    margin: 100px;
+}
+
+.card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card img{
+    max-height: 600px;
+    max-width: auto;
+}
