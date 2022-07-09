@@ -18,12 +18,20 @@ header{
 .title{
     position: absolute;
     padding-left: 50px;
-    word-spacing: 600px;
     color: white;
+    /* word-spacing: 100vw; */
     font-weight: bold;
-    font-size: 150px;
+    font-size: 50px;
     top: 20px
 }
+
+.title span{
+    display: block;
+}
+
+/* .title span:last-child{
+    color: red;
+} */
 
 .hero{
     max-width: 100%;
@@ -69,29 +77,16 @@ main{
 /* This concept is still iffy for me */
 
 @media (min-width: 576px) {
-    header{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .card img{
-        display: flex;
-    }
+    
 }
 @media (min-width: 768px) {  
 }
 @media (min-width: 992px) {
 }
 @media (min-width: 1200px) {  
+    .title{
+        font-size: 150px;
+    }
 }
 @media (min-width: 1400px) {  
-    .title{
-        word-spacing: 1400px;
-    }
-}
-@media (max-width: 950px) {
-    .title{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 50px;
-    }
 }
